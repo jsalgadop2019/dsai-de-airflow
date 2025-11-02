@@ -5,8 +5,9 @@ from scripts.helpers import add_date_suffix
 from datetime import datetime, timedelta
 
 LOCAL_FILE_PATH = "/opt/airflow/data/ordenes.csv"
-CONTAINER_NAME = "airflow"
-BLOB_NAME = "raw/g3/ordenes.csv"
+CONTAINER_NAME = "datalake" # airflow
+WASB_CONN_ID = "utec_blob_storage"
+BLOB_NAME = "raw/airflow/G3/ordenes.csv"
 
 default_args = {
     'owner': 'airflow',
@@ -15,13 +16,13 @@ default_args = {
 }
 
 @dag(
-    dag_id="g3_jcsp",
+    dag_id="g3_utec",
     description="Uploads a local file to Azure Blob Storage with a date suffix.",
     default_args=default_args,
     start_date=datetime(2025, 1, 1, tzinfo=timezone("America/Bogota")),
     schedule="0 1 * * *", # Runs everyday at 01:00 a.m. local time (GMT-5)
     catchup=False,
-    tags=["azure", "blob", "upload"],
+    tags=["utec", "blob", "upload"],
 )
 def upload_dag():
 
@@ -31,7 +32,8 @@ def upload_dag():
         upload_to_adls(
             local_file_path=LOCAL_FILE_PATH,
             container_name=CONTAINER_NAME,
-            blob_name=new_blob_name
+            blob_name=new_blob_name,
+            wasb_conn_id = WASB_CONN_ID
             )
 
     call_upload()

@@ -4,9 +4,9 @@ from scripts.azure_upload import upload_to_adls
 from scripts.helpers import add_date_suffix
 from datetime import datetime, timedelta
 
-LOCAL_FILE_PATH = "/opt/airflow/data/sample.txt"
+LOCAL_FILE_PATH = "/opt/airflow/data/ordenes.csv"
 CONTAINER_NAME = "airflow"
-BLOB_NAME = "raw/g3/archivo_subido.txt"
+BLOB_NAME = "raw/g3/ordenes.csv"
 
 default_args = {
     'owner': 'airflow',

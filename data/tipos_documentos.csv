@@ -1,0 +1,106 @@
+﻿000;Sin Documento
+001;Factura
+002;Boleta de Venta
+003;Acta de Entrega
+004;Liquidaciones de compra
+005;Boleto de Cias de Aviacion
+006;Carta de Porte Aereo
+007;Nota de Credito
+008;Nota de Debito
+009;Comprobantes de Pago (emitido por la UE)
+010;Certificado de Reembolso
+011;Poliza de Bolsa de Valores
+012;Tickets o cintas con IGV
+013;Documentos Banca y Seguros
+014;Recibo Servicios Publicos
+015;Convenio Aumento Participac.
+016;Informe de Actividades
+017;Declaracion Jurada
+018;Documentos emitidos por las AFPs
+019;Emision de Certificados Participacion
+020;Estado Bancario
+021;Conocimiento de Embarque
+022;Liquidacion de Acciones
+023;Poliza de Adjudicacion
+024;Liquidacion de Venta de Bonos
+025;Nota de Abono
+026;Nota de Cargo
+027;Recibo por Honorarios Profesionales
+028;Nota de Contabilidad
+029;Nota de Recepcion de Prestamo
+030;Oficio de Instrucciones
+031;Orden de compra - Guía de Internamiento
+032;Orden de Servicio
+033;Otros
+034;Papeleta de Deposito
+035;Planilla CTS
+036;Planilla de movilidad
+037;Planilla de Haberes
+038;Planilla de subsidios
+039;Planilla de Dieta de Directorio
+040;Planilla de Pensiones
+041;Planilla de Propinas
+042;Planilla de Racionamiento
+043;Planilla de Viaticos
+044;Suspensión de Cuarta Categoría
+045;Nota de Entrada de Almacén
+046;Pedido - Comprobante de Salida (PECOSA)
+047;Recibo emitido
+048;Rendicion de Cuenta
+049;Resolucion Administrativa
+050;Poliza DUI de importacion
+051;Poliza DUI fraccionada
+052;Declaracion simplificada
+053;Declaracion de mensajeria y courier
+054;Liquidacion de Cobranza
+055;Términos de Referencia
+056;Valorizacion de Estudios
+057;Valorizacion de Obra
+058;Confirmacion Acreedor
+059;Contrato Compra-Venta
+060;Contrato Suscrito (Varios)
+061;Documento oficial emitido por la Autoridad Competente
+062;Formulario de Pago de Tributo
+063;Liquidacion del Servicio Deuda Publica
+064;Comprobante de Pago de Aut.Sunat-Otros
+065;Cheque Girado
+066;Recibo de Ingresos
+067;Documento de Cobranza de Agencias de Viajes
+068;Correo de Invitación
+069;Pagado por BN
+070;Contrato Suscrito (Obras)
+071;Carta Orden de Pago (SOLO CREDITO PUBLICO)
+072;Liquidacion de Contrato
+078;Cable de Transferencia de Fondos
+079;Comprobante de Retención - IGV Retenido
+080;Documento oficial emitido por la Autoridad Competente - Redondeo (SUNAT)
+082;OPERACIONES SIN CHEQUE
+083;NOTA DE ABONO (SOLO CREDITO PUBLICO)
+089;Transferencias a otras Cuentas
+090;Declaración Jurada de Cumplimiento
+091;Comprobantes de no domiciliado
+092;Nota de Cargo emitida por B/N - Saldos Reprogramables
+093;Nota de Abono/Multa
+097;Nota de credito emitida por no domiciliados
+098;Nota de debito emitida por no domiciliados
+099;Papeleta de Deposito (T6)
+100;Nota de Cargo emitida por B/N - Saldos No Reprogramables
+201;Ficha RUC
+202;Carta Orden de Transferencia
+203;Certificado F!sico
+204;Cheque Girado - Carta Orden de Transferencia
+205;Declaración Técnica de importación
+206;Documento Sustentatoria Autorizada
+207;Documento Cancelatorio
+209;Norma Legal Autoritativa
+210;Nota de Abono - Nota de Cargo
+211;Nota de Abono - Pagar
+212;Nota de Cargo - Nota de Abono
+213;Planilla Unica de Pago
+214;Solicitud de Desembolso
+215;Nota de Abono / Factura
+216;Solicitud de desembolso
+217;Carta de Crèdito
+218;Carta Fianza
+219;Boleto de Viaje
+220;Acta de entrega/recepción

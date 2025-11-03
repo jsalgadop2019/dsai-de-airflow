@@ -8,14 +8,8 @@ import os
 # Configuración centralizada de archivos
 FILES_TO_UPLOAD = [
     "catalogo_servicios.csv",
-    "entregables.csv",
-    "locadores.csv",
     "metas.csv",
-    "ordenes_detalles.csv",
-    "pagos.csv",
     "pedidos.csv",
-    "pedidos_detalles.csv",
-    "sedes.csv",
     "tipos_documentos.csv"
 ]
 
